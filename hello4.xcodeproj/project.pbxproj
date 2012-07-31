@@ -38,21 +38,21 @@
 		5BAF511815C85E1200EF2373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BAF511A15C85E1200EF2373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BAF511C15C85E1200EF2373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5BAF512015C85E1200EF2373 /* hello4-Info.plist */ = {isa = PBXFileReference; path = "hello4-Info.plist"; sourceTree = "<group>"; };
+		5BAF512015C85E1200EF2373 /* hello4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hello4-Info.plist"; sourceTree = "<group>"; };
 		5BAF512215C85E1200EF2373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BAF512415C85E1200EF2373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BAF512615C85E1200EF2373 /* hello4-Prefix.pch */ = {isa = PBXFileReference; path = "hello4-Prefix.pch"; sourceTree = "<group>"; };
-		5BAF512715C85E1200EF2373 /* jghAppDelegate.h */ = {isa = PBXFileReference; path = jghAppDelegate.h; sourceTree = "<group>"; };
+		5BAF512615C85E1200EF2373 /* hello4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello4-Prefix.pch"; sourceTree = "<group>"; };
+		5BAF512715C85E1200EF2373 /* jghAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jghAppDelegate.h; sourceTree = "<group>"; };
 		5BAF512815C85E1200EF2373 /* jghAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jghAppDelegate.m; sourceTree = "<group>"; };
-		5BAF512A15C85E1200EF2373 /* jghViewController.h */ = {isa = PBXFileReference; path = jghViewController.h; sourceTree = "<group>"; };
+		5BAF512A15C85E1200EF2373 /* jghViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jghViewController.h; sourceTree = "<group>"; };
 		5BAF512B15C85E1200EF2373 /* jghViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jghViewController.m; sourceTree = "<group>"; };
 		5BAF512E15C85E1200EF2373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/jghViewController_iPhone.xib; sourceTree = "<group>"; };
 		5BAF513115C85E1200EF2373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/jghViewController_iPad.xib; sourceTree = "<group>"; };
 		5BAF513815C85E1200EF2373 /* hello4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAF513915C85E1200EF2373 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5BAF514115C85E1200EF2373 /* hello4Tests-Info.plist */ = {isa = PBXFileReference; path = "hello4Tests-Info.plist"; sourceTree = "<group>"; };
+		5BAF514115C85E1200EF2373 /* hello4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hello4Tests-Info.plist"; sourceTree = "<group>"; };
 		5BAF514315C85E1200EF2373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5BAF514515C85E1200EF2373 /* hello4Tests.h */ = {isa = PBXFileReference; path = hello4Tests.h; sourceTree = "<group>"; };
+		5BAF514515C85E1200EF2373 /* hello4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hello4Tests.h; sourceTree = "<group>"; };
 		5BAF514615C85E1200EF2373 /* hello4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hello4Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
