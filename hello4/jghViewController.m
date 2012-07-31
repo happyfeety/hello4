@@ -13,6 +13,8 @@
 @end
 
 @implementation jghViewController
+@synthesize HelloLabel;
+@synthesize HelloTextField;
 
 - (void)viewDidLoad
 {
@@ -22,6 +24,8 @@
 
 - (void)viewDidUnload
 {
+    [self setHelloTextField:nil];
+    [self setHelloLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -32,7 +36,9 @@
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
-    }
+        self.HelloLabel = self.HelloTextField.text;}
 }
 
+- (IBAction)HelloButtonPressed:(UIButton *)sender {
+}
 @end

@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface jghViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *HelloTextField;
+- (IBAction)HelloButtonPressed:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *HelloLabel;
 
+    
 @end
